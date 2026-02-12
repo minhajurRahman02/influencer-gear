@@ -13,7 +13,10 @@
     /* border: 2px solid black; */
     width: 90%;
     margin: 0 auto;
+    padding: 20px;
 }
+
+/* nav section */
 
 .navbar {
     /* border: 2px solid black; */
@@ -23,6 +26,8 @@
 
 .nav-logo {
     color: var(--primary-text-color);
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .nav-items {
@@ -41,4 +46,46 @@
 .navbar a {
     color: var(--primary-text-color);
     text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    color: var(--featured-pink);
+}
+
+/* banner section */
+
+.banner {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-heading {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.banner-description {
+    color: var(--primary-text-color);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.banner-btn {
+    background-color: var(--featured-pink);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.banner-btn:hover {
+    scale: 1.05;
+    background-color: #b32358;
 }
