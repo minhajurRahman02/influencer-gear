@@ -2,6 +2,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* body{
+    border: 2px solid black;
+} */
+
 :root {
     --primary-text-color: #3A3A3A;
     --secondary-text-color: #6C6C6C;
@@ -62,6 +66,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .banner-heading {
@@ -93,9 +98,18 @@
     cursor: pointer;
 }
 
-.banner-image {
-    /* border: 2px solid black; */
+/* .banner-image {
+    border: 2px solid black;
+} */
+
+.sponsor{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
+
 
 /* Responsive design for small devices */
 
@@ -121,7 +135,7 @@
         order: 1;
     }
 
-    .banner-image {
+    .bg-circle {
         width: 100%;
     }
 }
