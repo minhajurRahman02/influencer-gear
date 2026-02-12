@@ -28,13 +28,13 @@
     color: var(--primary-text-color);
     font-size: 24px;
     font-weight: 700;
+    padding-right: 50px;
 }
 
 .nav-items {
-    width: 30%;
     /* border: 2px solid black; */
     display: flex;
-    justify-content: space-around;
+    gap: 30px;
     align-items: center;
 }
 
@@ -46,6 +46,8 @@
 .navbar a {
     color: var(--primary-text-color);
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
     transition: 0.3s ease;
 }
 
@@ -88,4 +90,68 @@
 .banner-btn:hover {
     scale: 1.05;
     background-color: #b32358;
+    cursor: pointer;
+}
+
+.banner-image {
+    /* border: 2px solid black; */
+}
+
+/* Responsive design for small devices */
+
+@media screen and (max-width: 576px) {
+    .nav-items {
+        overflow-x: auto;
+    }
+
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .banner-text {
+        text-align: center;
+        order: 2;
+    }
+
+    .banner-image {
+        order: 1;
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+}
+
+/* Responsive design for medium devices */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .nav-items {
+        overflow-x: auto;
+    }
+
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .banner-text {
+        text-align: center;
+        order: 2;
+    }
+
+    .banner-image {
+        order: 1;
+    }
+
+    .bg-circle {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
