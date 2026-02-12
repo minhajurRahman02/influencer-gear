@@ -201,6 +201,19 @@
     color: orange;
 }
 
+.see-more {
+    text-align: right;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--featured-pink);
+    transition: 0.5s ease;
+}
+
+.see-more:hover{
+    cursor: pointer;
+}
+
 /* Responsive design for small devices */
 
 @media screen and (max-width: 576px) {
