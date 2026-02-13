@@ -273,7 +273,7 @@
 }
 
 .footer-items {
-    width: 40%;
+    /* width: 60%; */
     margin: 0 auto;
     text-align: center;
     color: white;
@@ -295,7 +295,7 @@
 }
 
 .s-icon {
-    padding: 10px 15px;
+    padding: 5px 10px;
     margin: 5px;
     background-color: #181731;
     border-radius: 50px;
